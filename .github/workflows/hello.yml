@@ -4,21 +4,21 @@ on: workflow_dispatch
 
 jobs: 
   hello_world:
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Hello World
         run: |
           echo "Hello World!"
 
   now_it_is:
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Now it is
         run: |
           date
 
   directory_content:
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Directory content
         run: |
